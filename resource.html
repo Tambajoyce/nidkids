@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        .header {
+	    width: 100%;
+	    position: fixed;
+            background-color: #00bfff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .back-arrow {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .header-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .resource-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .resource-image {
+            width: 80px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .resource-info {
+            flex: 1;
+        }
+        .resource-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .resource-description {
+            font-size: 14px;
+            color: #666;
+        }
+        a{
+            text-decoration: none;
+            list-style: none;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            max-width: 600px;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer-item {
+            text-align: center;
+            font-size: 0.8em;
+            color: #888;
+        }
+        .footer-item.active {
+            color: #00bfff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <a href="community.html">  <span class="back-arrow">←</span></a>
+            <span class="header-title">Resources</span>
+        </div>
+        
+        <div class="content">
+            <div class="section-title">Books</div>
+            
+          <a href="#">  <div class="resource-item">
+                <img src="assets/images/p1.png" alt="Handbook" class="resource-image">
+                <div class="resource-info">
+                    <div class="resource-title">Handbook for parents of children with special needs.</div>
+                    <div class="resource-description">This is a descriptive text about the book you see on the left. Let me add more text to fill it up.</div>
+                </div>
+            </div></a>
+            
+           <a href="#"> <div class="resource-item">
+                <img src="assets/images/p2.png" alt="Parent's Guide" class="resource-image">
+                <div class="resource-info">
+                    <div class="resource-title">A parent's guide for empowering children with special needs.</div>
+                    <div class="resource-description">This is a descriptive text about the book you see on the left. Let me add more text to fill it up.</div>
+                </div>
+            </div></a>
+            
+          <a href="#">  <div class="resource-item">
+                <img src="assets/images/p3.png" alt="Sharing Love" class="resource-image">
+                <div class="resource-info">
+                    <div class="resource-title">Sharing love abundantly in special needs families.</div>
+                    <div class="resource-description">This is a descriptive text about the book you see on the left. Let me add more text to fill it up.</div>
+                </div>
+            </div></a>
+            
+            <div class="section-title">Videos</div>
+            
+          <a href="#">  <div class="resource-item">
+                <img src="assets/images/p1.png" alt="Handbook Video" class="resource-image">
+                <div class="resource-info">
+                    <div class="resource-title">Handbook for parents of children with special needs.</div>
+                    <div class="resource-description">This is a descriptive text about the book you see on the left. Let me add more text to fill it up.</div>
+                </div>
+            </div></a>
+            
+            <a href="#"><div class="resource-item">
+                <img src="assets/images/p2.png" alt="Parent's Guide Video" class="resource-image">
+                <div class="resource-info">
+                    <div class="resource-title">A parent's guide for empowering children with special needs.</div>
+                    <div class="resource-description">This is a descriptive text about the book you see on the left. Let me add more text to fill it up.</div>
+                </div>
+            </div></a>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-item">
+               <a href="community.html"><div>📄</div>
+                <div>Posts</div></a>
+            </div>
+            <div class="footer-item active">
+             <a href="#">   <div>📚</div>
+                <div>Resources</div></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
